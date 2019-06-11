@@ -1,0 +1,17 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        // write your code here
+        double num, sroot, rerr;
+        for (num = 1; num < 100; num++) {
+            sroot = Math.sqrt(num);
+            System.out.println("Square root of" + num + "is " + sroot);
+            rerr = num - (sroot * sroot);
+            System.out.println("Reunding errer is" + rerr);
+            System.out.println();
+        }
+    }
+}
