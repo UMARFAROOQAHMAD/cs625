@@ -1,0 +1,9 @@
+class inches {
+  public static void main (String args[]) { 
+    long ci;
+    long im;
+    im = 5280 * 12;
+    ci = im * im *im;
+   system.out.prient("there are "+ ci+ "cubic inches in cubic mile.");
+}
+}

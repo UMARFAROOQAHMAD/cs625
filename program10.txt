@@ -1,0 +1,7 @@
+class Sound {
+  public static void main (String args[]) { 
+    double dist:
+    dist = 7.2 * 1100;
+system.out.ptintln("the lightning is "+ dist+"feet away.");
+}
+}

@@ -1,0 +1,11 @@
+class ChararithDemo {
+  public static void main (String args[]) { 
+  char ch;
+    ch = x;
+   system.out.prinyln("ch contains"+ ch);
+    ch++;
+    system.out.println("ch is now" +ch);
+    ch+90;
+   system.out.prient("ch is now" +ch);
+}
+}

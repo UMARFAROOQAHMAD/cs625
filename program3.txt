@@ -1,0 +1,9 @@
+class GalToLit {
+  public static void main (String args[]) {
+    double gallons; 
+    double liters;
+    gallons = 10;
+     litters = gallons * 3.78;
+system.out.println(gallons + "gallons is" + litter" litters.");
+}
+}

@@ -1,0 +1,10 @@
+class Guess {
+  public static void main (String args[]) {
+    char ch, answer = k;
+system.out.println("i am thinking of a letter between A & Z");
+system.out.println("can you guess it:");
+ch = (char) system.in.read();
+if (char == answer)system.out.println("**Right**");
+
+}
+}

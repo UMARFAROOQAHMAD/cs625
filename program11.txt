@@ -1,0 +1,20 @@
+class CastDemo {
+  public static void main (String args[]) { 
+    double x,y;
+    int i;
+    char ch;
+     x = 10;
+     y = 3;
+i = (int)(x/y);
+system.out.println("integer outcome of x/y:"+ i);
+i=100;
+b=(byte) i;
+system.out.println("value of b:" + b);
+i = 257;
+b = (byte) i;
+system.out.println("value of b:"+b);
+b = 88;
+ch = (char) b ;
+system.out.println("ch:"+ch)
+}
+}

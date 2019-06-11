@@ -1,0 +1,15 @@
+class Example3 {
+  public static void main (String args[]) {
+    int var; 
+    double x:
+    var = 10;
+     x = 10;
+system.out.println("original value of var:" + var);
+system.out.println("original value of x:" + x);
+system.out.println();
+var = var / 4;
+x = x/4;
+system.out.ptint("var after division:" + var);
+system.out.ptintln("x after division: + x");
+}
+}

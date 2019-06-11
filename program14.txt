@@ -1,0 +1,8 @@
+class KbIn  {
+  public static void main (String args[]) { 
+    char ch;
+system.out.println("Press a key followed by enter:");
+ch = (char) system.in.read();
+system.out.println("your key is :"+ch);
+}
+}
