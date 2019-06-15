@@ -1,0 +1,29 @@
+class Myclass {
+int x;
+
+Myclass (){
+system.out.println("inside Myclass().");
+x=I;
+}
+Myclass (doublen d){
+system.out.println("inside Myclass(double).");
+x = (int) d;
+}
+Myclass(int I, int j){
+system.out.println("inside Myclass(int , int).");
+x = i*j;
+}
+}
+class overloaddemo{
+public static void main (string args[]){
+Myclass t1 = new Myclass();
+Myclass t2 = new Myclass(88);
+Myclass t3 = new Myclass(17.23);
+Myclass t4 = new Myclass(2,4);
+
+system.out.println("t1.x:" +t1.x)
+system.out.println("t2.x:" +t2.x)
+system.out.println("t3.x:" +t3.x)
+system.out.println("t4.x:" +t4.x)
+}
+}

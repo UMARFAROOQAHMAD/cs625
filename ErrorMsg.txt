@@ -1,0 +1,21 @@
+class ErrorMsg {
+string msgs[] = {
+"Output Error"
+"input Error"
+"Disk Full"
+"index out of bounds"
+}
+string geterror(int i){
+if (i>=0 & i< msgs.lenth)
+return msg[i];
+else
+return "invalid error code";
+}
+}
+class ErrMsg{
+public static void main (string args[]){
+ErrorMsg err = ErrorMsg();
+system.out.println("err.geterrormsg"(2));
+system.out.println("err.geterrormsg"(19));
+}
+}

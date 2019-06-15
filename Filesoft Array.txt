@@ -1,0 +1,53 @@
+class failSoftArray {
+private int a[];
+private int errval;
+public int length;
+public FailSoftArray(int sizw, int errv){
+a=new int[size];
+errval=errv;
+length=size;
+}
+public int get (int index){
+if(indexOK(index)) retrun a[index];
+return errval;
+}
+public voolean put (int index.int val){
+if(indexOK(index)){
+
+a[index]=val;
+retrun true;
+}
+retrun flase;
+}
+private voolean indexOK(int index){
+if(index>=0 & index <length) retrun true;
+return false;
+ }
+}
+class FSDemo {
+
+public static void main (String args[]){
+FailSoftArray fa =new FailSoftArray(5,_1);
+int x;
+System.out.println("Fail quietly.");
+for(int i=0;i<(fs.length*2);i++)
+fs.put(i,i*10);
+for(int i=0; i<(fs.length*2);i++)
+fs.put(i,i*10);
+for(int i=0; i < (fs.length*2);i++)
+fs.put(i,i*10);
+For(int i=0; i<(fs.length*2);i++)
+x=fs.get(i);
+if(x!=-1)System.out.print" ");
+}
+System.out.println(" ");
+System.out.println("\nfail with error reports.");
+for(int i=0; i<(fs.length*2);i++)
+x=fs.get(i);
+if(x!=-1)System.out.print(x +" ");
+else
+System.out.println("Index"+i+"out-of-bounds");
+  }
+ }
+}
+

@@ -1,0 +1,34 @@
+class overload2 {
+void f (byte x){
+system.out.println("insidef(byte):"+x);
+}
+void f (int x){
+system.out.println("insidef(int):"+x);
+}
+void f(double x){
+system.out.println("inside f(double):"+x);
+}
+}
+class typecon{
+public static void main (string args[]){
+overload2 ob = new overload2();
+int I =10;
+double d = 10.1;
+byte b = 99;
+short s = 10:
+float f = 11.5F
+ob.f(i);
+ob.f(d);
+ob.f(s);
+ob.f(f);
+}
+}
+
+Error err = New Errorinfo();
+err e;
+e = err.geterrorinfo(2);
+system.out.println("err.geterrormsg"(2));
+e = err.geterrorinfo(19);
+system.out.println(e.msg+"severity:"+e.severity);
+}
+}

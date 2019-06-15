@@ -1,0 +1,32 @@
+class Err {
+string severity;
+Err(string m , int a){
+msg = m;
+severity = s;
+}
+}
+class Errinfo{
+string msgs[] = {
+"errors error"
+"input error"
+"disk full"
+"index out of bounds"
+};
+int howbad[] = {3,3,2,4};
+err geterrorinfo(int i){
+if (i>=0 & I < msgs.length)
+return new err (msg [i] , howbad[i]);
+else
+return new err ("invalid error code,0");
+}
+}
+class errinfo{
+public static void main (string args[]){
+Error err = New Errorinfo();
+err e;
+e = err.geterrorinfo(2);
+system.out.println("err.geterrormsg"(2));
+e = err.geterrorinfo(19);
+system.out.println(e.msg+"severity:"+e.severity);
+}
+}

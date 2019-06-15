@@ -1,0 +1,26 @@
+class TwoDShape {
+private double width;
+private double height; 
+double getWidth()
+double getHeigth()
+void setWidth (double w)
+void setHeight(double h)
+void showDim() {
+System.out.println("Width and height are" +width +"and" + heigth);
+ }
+}
+class Triangle extends TwoDShape {
+String style;
+double area()
+return getWidth() * getHeight()/2;
+}
+void showStyle() {
+System.out.println("Triangle is "+ style);
+}
+}
+class Shapes2 {
+public static void main(String args[]){
+Triangle t1=new Triangle();
+Triangle t2= new Triangle();
+t1.setWidth(4);
+t1

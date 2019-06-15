@@ -1,0 +1,20 @@
+class MyClass {
+private int alpha;
+public int beta;
+int gamma;
+void setAlpha(int a){
+alpha = a;
+}
+int getalpha(){
+return alpha;
+}
+}
+class AccessDemo{
+public static void main (string args[]){
+MyClass ob = new myclass();
+ob.setAlpha (-99);
+system.out.println("ob.alpha is"+ob.getalpha());
+ob.beta=88;
+ob.gama=99;
+}
+}
